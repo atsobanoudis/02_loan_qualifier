@@ -110,9 +110,9 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    save = questionary.checkbox("Would you like to save your data to a CSV?",
-                                choices=["YES", "NO"]).ask()
+    save = questionary.text("Would you like to save your data to a CSV? 'yes' or 'no'").ask()
     print(save)
+    save.upper()            # Converts input to upper to account for any capitalization differences
 
     if save == "YES":
 
@@ -132,8 +132,7 @@ def save_qualifying_loans(qualifying_loans):
                 csvwriter.writerow(lender.values())
 
     elif save == "NO":
-        print("Your data will not be saved. Goodbye")
-        sys.exit()
+        sys.exit("Your data will not be saved. Goodbye")
 
 
 def run():

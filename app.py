@@ -111,10 +111,11 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     save = questionary.text("Would you like to save your data to a CSV? 'yes' or 'no'").ask()
+    print(save.upper())
+    save = save.upper()            # Converts input to upper to account for any capitalization differences
     print(save)
-    save.upper()            # Converts input to upper to account for any capitalization differences
 
-    if save == "YES":
+    if save.upper() == "YES":
 
         if len(qualifying_loans) == 0:                                                   # Verifies # loans
             print("Your list of approved loans is 0, your data will not be written to a CSV. Goodbye.")

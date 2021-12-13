@@ -110,7 +110,8 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    save = questionary.text("Would you like to save the list of approved loans? (Yes or No)").ask()
+    save = questionary.checkbox("Would you like to save your data to a CSV?",
+                                choices=["YES", "NO"]).ask()
 
     if save == "YES":
 
@@ -123,18 +124,15 @@ def save_qualifying_loans(qualifying_loans):
             with open(csvpath, "w") as csvfile:
                 csvwriter = csv.writer(csvfile, delimiter=',')                          # Creates csvwriter
                 header = ["Lender", "Max Loan Amount",                                  # Creates header
-                      "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
+                          "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
                 csvwriter.writerow(header)                                              # Writes header to CSV
 
             for lender in qualifying_loans:
                 csvwriter.writerow(lender.values())
 
     elif save == "NO":
-        print("Your data will not be saved.")
-
-    else:
-        print("That is not a valid entry, please try again.")
-    sys.save
+        print("Your data will not be saved. Goodbye")
+        sys.exit()
 
 
 def run():

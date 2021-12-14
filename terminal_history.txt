@@ -1,0 +1,405 @@
+   50  xcode help
+   51  pwd
+   52  ls
+   53  cd
+   54  cd Desktop
+   55  pw
+   56  pwd
+   57  ls
+   58  mkdir FinTech_Workspace
+   59  ls
+   60  cd FinTech_Workspace
+   61  ls
+   62  cd ..
+   63  cd ...
+   64  cd ~
+   65  /usr/bin/python3 /Users/alextsobanoudis/Desktop/FinTech_Workspace/Python_Project/hello_python.py
+   66  conda activate
+   67  conda activate dev
+   68  cd
+   69  ls
+   70  cd Documents
+   71  ls
+   72  cd ..
+   73  cd Desktop
+   74  ls
+   75  cd FinTech_Workspace
+   76  cd Python_Project
+   77  python hello_python.py
+   78  code .
+   79  code ..
+   80  python hello_python.py
+   81  code .
+   82  code .
+   83  /usr/bin/python3 /Users/alextsobanoudis/Desktop/FinTech_Workspace/02_Stu_Percent_Increase/Unsolved/percent_increase.py
+   84  /usr/bin/python3 /Users/alextsobanoudis/Desktop/FinTech_Workspace/02_Stu_Percent_Increase/Unsolved/percent_increase.py
+   85  /usr/bin/python3 /Users/alextsobanoudis/Desktop/FinTech_Workspace/02_Stu_Percent_Increase/Unsolved/percent_increase.py
+   86  /usr/bin/python3 /Users/alextsobanoudis/Desktop/FinTech_Workspace/02_Stu_Percent_Increase/Unsolved/percent_increase.py
+   87  /usr/bin/python3 /Users/alextsobanoudis/Desktop/FinTech_Workspace/02_Stu_Percent_Increase/Unsolved/percent_increase.py
+   88  ls
+   89  cd Desktop/FinTech_Workspace/Python_Project
+   90  ls
+   91  cd ..
+   92  ls
+   93  cd 04
+   94  cd 04_Stu_Manipulating_Lists
+   95  conda activate dev
+   96  python
+   97  python manipulating_lists.py
+   98  cd Unsolved
+   99  python manipulating_lists.py
+  100  python manipulating_lists.py
+  101  python manipulating_lists.py
+  102  python manipulating_lists.py
+  103  ls
+  104  cd Desktop
+  105  cd FinTech_Workspace
+  106  ls
+  107  pwd
+  108  mkdir Activity-1
+  109  cd Activity-1
+  110  touch hello.md
+  111  ls
+  112  nano hello.md
+  113  ls
+  114  cd 
+  115  cd Desktop/FinTech_Workspace/Activity-1
+  116  ls
+  117  del coding.md
+  118  rev coding.md
+  119  ls
+  120  remove coding.md
+  121  rm coding.md
+  122  ls
+  123  mv hello.md
+  124  mv -n hello.md
+  125  mv -n hello.md mv -n coding.md
+  126  mv hello.md coding.md
+  127  ls
+  128  clear
+  129  mkdir terminal
+  130  ls
+  131  mv coding.md terminal
+  132  ls
+  133  cd terminal
+  134  ls
+  135  rm terminal
+  136  cd ..
+  137  rm terminal
+  138  del terminal
+  139  rm
+  140  rm -r terminal
+  141  ls
+  142  cd ..
+  143  rm -r Activity-1
+  144  ls
+  145  close
+  146  exit
+  147  cd Desktop/FinTech_Workspace/Class_1_Activities/02_Stu_Percent_Increase/Unsolved
+  148  conda activate dev
+  149  python percent_increase.py
+  150  python percent_increase.py
+  151  python percent_increase.py
+  152  python percent_increase.py
+  153  python percent_increase.py
+  154  cd ..
+  155  cd ..
+  156  cd 04_Stu_Manipulating_Lists
+  157  cd Unsolved
+  158  python manipulating_lists.py
+  159  python manipulating_lists.py
+  160  python manipulating_lists.py
+  161  python manipulating_lists.py
+  162  python manipulating_lists.py
+  163  python manipulating_lists.py
+  164  python manipulating_lists.py
+  165  python manipulating_lists.py
+  166  python manipulating_lists.py
+  167  python manipulating_lists.py
+  168  python manipulating_lists.py
+  169  cd ..
+  170  cd..
+  171  cd ..
+  172  cd ..
+  173  cd 02_Listing_Assets
+  174  cd Unsolved
+  175  python listing_assets.py
+  176  cd ..
+  177  cd ..
+  178  cd 03_The_401k_Shuffle
+  179  cd Unsolved
+  180  python the_401k_shuffle.py
+  181  python the_401k_shuffle.py
+  182  python the_401k_shuffle.py
+  183  python the_401k_shuffle.py
+  184  python the_401k_shuffle.py
+  185  python the_401k_shuffle.py
+  186  cd ..
+  187  cd ..
+  188  cd 01_Conditional_Statement
+  189  cd Unsolved
+  190  python conditional_statement.py
+  191  python conditional_statement.py
+  192  python conditional_statement.py
+  193  python conditional_statement.py
+  194  conda deactivate
+  195  cd ~
+  196  ^[[200~if user_location == "United States" and already_registered is True:
+  197      print("Congratulations! You're eligible to register for our new service.")
+  198  else:
+  199  defaults write .GlobalPreferences com.apple.mouse.scaling -1
+  200  conda activate dev
+  201  jupyter
+  202  jupyter lab
+  203  conda deactivate
+  204  close
+  205  exit
+  206  conda activate dev
+  207  brew
+  208  conda deactivate
+  209  close
+  210  exit
+  211  conda activate dev
+  212  jupyter lab
+  213  conda deactivate
+  214  exit
+  215  conda activate dev
+  216  pip -v
+  217  pip -V
+  218  pip freeze
+  219  pip install fire
+  220  pip install questionary
+  221  jupyter lab
+  222  conda deactivate
+  223  conda -n
+  224  conda create
+  225  clear
+  226  conda create -n atmdev python=3.7
+  227  pip install fire
+  228  conda activate dev
+  229  pip install fire
+  230  conda deactivate
+  231  fire
+  232  pip fire
+  233  pip -i fire
+  234  pip i- fire
+  235  pip install fire
+  236  cd Desktop/FinTech_Workspace
+  237  pip install fire
+  238  pip3 install fire
+  239  conda install fire -c conda-forge
+  240  conda activate atmdev
+  241  conda install fire
+  242  conda install -c conda-forge fire
+  243  conda deactivate
+  244  clear
+  245  exit
+  246  conda activate dev
+  247  jupyter lab
+  248  cd Desktop/FinTech_Workspace/Module 2/
+  249  cd Desktop/FinTech_Workspace
+  250  ls
+  251  cd Module 2
+  252  cd Module_2
+  253  cd Module_Activities
+  254  ls
+  255  py
+  256  python 3.7 cli.py
+  257  python cli.py
+  258  python cli.py
+  259  python cli.py
+  260  python cli.py --pants=True
+  261  cli.py --help
+  262  python cli.py
+  263  python cli.py --pants=True
+  264  python cli.py --pants=True
+  265  python cli.py --pants=True
+  266  python cli.py -pants=True
+  267  conda deactivate
+  268  conda activate atmdev
+  269  python cli.py --pants=True
+  270  fire
+  271  python cli.py
+  272  python cli.py
+  273  cd 01_Adding_Fire_to_the_Loan_Qualifier_App
+  274  cd Unsolved
+  275  python app.py
+  276  python app.py
+  277  cd Desktop/FinTech_Workspace/Module_2/Module_Activities/01_Adding_Fire_to_the_Loan_Qualifier_App
+  278  python app.py --credit_score=750
+  279  cd Unsolved
+  280  python app.py --credit_score=750
+  281  python app.py --credit_score=300
+  282  python app.py --credit_score=750 --debt=5000 --income=20000
+  283  python app.py --credit_score=750 --debt=5000 --income=2000
+  284  conda activate atmdev
+  285  pip install questionary
+  286  conda deactivate
+  287  exit
+  288  cd Desktop/FinTech_Workspace/Module_2/Module_Activities
+  289  python dialog.py
+  290  pip install questionary
+  291  pip install questionary
+  292  clear
+  293  python dialog.py
+  294  python dialog.py
+  295  python dialog.py
+  296  python dialog.py
+  297  cd 02_Adding_questionary_to_Loan_Qualifier
+  298  cd Unsolved
+  299  python app.py
+  300  python app.py --credit_score=750 --debt=5000 --income=20000
+  301  python app.py --credit_score=750 --debt=5000 --i
+  302  python app.py
+  303  git config list
+  304  git config --list
+  305  git config --global user.name alex.tsobanoudis
+  306  git config --list
+  307  git config --global user.email alex.tsobanoudis@gmail.com
+  308  git config --list
+  309  conda activate dev
+  310  jupyter lab
+  311  conda activate dev
+  312  jupyter lab
+  313  ls
+  314  cd Desktop/FinTech_Workspace/Challenges/02/loan_qualifier_app
+  315  conda activate dev
+  316  conda deactivat
+  317  conda deactivate
+  318  conda activate atmdev
+  319  python app.py
+  320  python app.py
+  321  cd ..
+  322  cd ..
+  323  cd ..
+  324  ls
+  325  python Notebook.py
+  326  python Notebook.py
+  327  python Notebook.py
+  328  cd Challenges/02/
+  329  cd loan_qualifier_app
+  330  python app.py
+  331  python app.py
+  332  conda activate atm dev
+  333  conda activate atmdev
+  334  cd ~
+  335  conda deactivate
+  336  conda activate dev
+  337  jupyter lab
+  338  cd Desktop/FinTech_Workspace/Challenges/02/loan_qualifier_app
+  339  python app.py
+  340  cd Desktop/FinTech_Workspace/Challenges/02/loan_qualifier_app
+  341  python app.py
+  342  python app.py
+  343  pwd
+  344  cd ..
+  345  git init
+  346  git add .
+  347  git status
+  348  git commit -m 'First commit'
+  349  git remote add origin git@github.com:atsobanoudis/02_loan_qualifier.git
+  350  git push -u origin master
+  351  git push -u origin master
+  352  git push -u origin master
+  353  git push -u origin master
+  354  git push -u origin master
+  355  clear
+  356  ssh
+  357  rsa
+  358  gpg
+  359  ls -al ~/.ssh
+  360  ssh-keygen -t rsa -b 4096 -C "alex.tsobanoudis@gmail.com"
+  361  eval "$(ssh-agent -s)"
+  362  ssh-add ~/.ssh/id_rsa
+  363  clip < ~/.ssh/id_rsa.pub
+  364  clip < ~/.ssh/id_rsa.pub
+  365  clip < ~/.ssh/id_rsa.pub\n\n
+  366  clip < ~/.ssh/id_rsa.pub
+  367  pbcopy < ~/.ssh/id_rsa.pub
+  368  pwd
+  369  git push -u origin master
+  370  git push -u origin master
+  371  git init
+  372  git add .
+  373  git status
+  374  git commit -m 'Second commit, testing with new ssh. Forgot old passphrase :('
+  375  git remote add origin 'git@github.com:atsobanoudis/02_loan_qualifier.git'
+  376  git remote
+  377  git remote -v
+  378  git push -u origin master
+  379  git pull
+  380  git push -u origin main
+  381  git undo
+  382  git --help
+  383  git branch
+  384  git merge
+  385  git merge master main
+  386  git merge origin/main
+  387  git push -u main master
+  388  git clone git@github.com:atsobanoudis/02_loan_qualifier.git
+  389  git status
+  390  pwd
+  391  cd 02_loan_qualifier
+  392  git status
+  393  git add README.md
+  394  git status
+  395  touch test
+  396  git status
+  397  git add test
+  398  git status
+  399  git commit -m "Testing git"
+  400  git status
+  401  git push
+  402  git commit -m "Brought over files to the working branch"
+  403  git add .
+  404  git status
+  405  git commit -m "Brought over files to the working branch"
+  406  git push
+  407  cd Desktop/FinTech_Workspace/Challenges/02/
+  408  conda activate atmdev
+  409  python 02_loan_qualifier/app.py
+  410  python 02_loan_qualifier/app.py
+  411  python 02_loan_qualifier/app.py
+  412  cd 02_loan_qualifier/
+  413  git init
+  414  git status
+  415  git add app.py
+  416  git status
+  417  git push
+  418  git commit -m 'Adjusted questionary to prompt user with choices via checkbox\n\n\n']
+  419  git push
+  420  cd Desktop/FinTech_Workspace/Challenges/02/02_loan_qualifier
+  421  python app.py
+  422  ls
+  423  python app.py
+  424  python app.py
+  425  python app.py
+  426  python app.py
+  427  git commit -m 'Changed questinoary path input to use path function'
+  428  git add app.py
+  429  git commit -m 'Changed questinoary path input to use path function'
+  430  git push
+  431  python app.py
+  432  python app.py
+  433  python app.py
+  434  python app.py
+  435  python app.py
+  436  cd Desktop/FinTech_Workspace/Challenges/02/02_loan_qualifier
+  437  python app.py
+  438  python app.py
+  439  git rm
+  440  git rm data/approved_list.csv
+  441  git status
+  442  git commit -m 'removed temporary user file'
+  443  git push
+  444  conda activate atmdev
+  445  python app.py
+  446  conda install -c conda-forge fire
+  447  python app.py
+  448  python app.py
+  449  python app.py
+  450  git push
+  451  python app.py
+  452  python app.py
+  453  python app.py
+  454  python app.py

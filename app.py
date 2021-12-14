@@ -13,6 +13,7 @@ import questionary
 from pathlib import Path
 
 from qualifier.utils.fileio import load_csv
+from qualifier.utils.fileio import save_csv
 
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
@@ -122,14 +123,10 @@ def save_qualifying_loans(qualifying_loans):
         else:
             csvpath = questionary.path("Please indicate the folder where you would like to save your data.").ask()
             print("Writing your data to a CSV...")
-            with open(csvpath, "w") as csvfile:
-                csvwriter = csv.writer(csvfile, delimiter=',')                          # Creates csvwriter
-                header = ["Lender", "Max Loan Amount",                                  # Creates header
-                          "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
-                csvwriter.writerow(header)                                              # Writes header to CSV
 
-                for lender in qualifying_loans:
-                    csvwriter.writerow(lender)
+            header = ["Lender", "Max Loan Amount",                                  # Creates header
+                          "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
+            save_csv(csvpath, qualifying_loans, header)
 
     elif save == "NO":
         sys.exit("Your data will not be saved. Goodbye")

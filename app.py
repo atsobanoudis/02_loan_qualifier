@@ -121,7 +121,7 @@ def save_qualifying_loans(qualifying_loans):
             print("Your list of approved loans is 0, your data will not be written to a CSV. Goodbye.")
             sys.exit()
         else:
-            csvpath = questionary.path("Please indicate the folder where you would like to save your data.").ask()
+            csvpath = questionary.path("Please indicate the file path where you would like to save your data.").ask()
             print("Writing your data to a CSV...")
 
             header = ["Lender", "Max Loan Amount",                                  # Creates header

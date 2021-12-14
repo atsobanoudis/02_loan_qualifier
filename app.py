@@ -128,8 +128,8 @@ def save_qualifying_loans(qualifying_loans):
                           "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
                 csvwriter.writerow(header)                                              # Writes header to CSV
 
-            for lender in qualifying_loans:
-                csvwriter.writerow(lender.values())
+                for lender in qualifying_loans:
+                    csvwriter.writerow(lender)
 
     elif save == "NO":
         sys.exit("Your data will not be saved. Goodbye")
